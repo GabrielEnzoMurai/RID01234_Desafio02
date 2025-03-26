@@ -50,8 +50,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 2rem;
-    height: 18rem;
-    width: 55rem;
+    height: 21rem;
+    width: 48rem;
     color: #fff;
     border-radius: .8rem;
     display: flex;
@@ -75,10 +75,14 @@ p {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
     margin-left: 7rem;
     margin-right: 7rem;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
 }
 
 .section-side-card {
@@ -88,13 +92,13 @@ p {
 
 .title-section {
     border-radius: .5rem;
-    width: 15rem;
+    width: 20rem;
     height: 1rem;
     text-align: left;
     justify-content: center;
     padding: .5rem 0 .5rem 1rem;
     font-size: .7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -120,8 +124,22 @@ p {
 
 .card img {
     width: 6.5rem;
-    height: 3.5rem;
+    height: 4rem;
     border-radius: 1rem;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.recent-post-banner{
+    width: 50rem;
+}
+
+.recent-post-banner p {
+    text-decoration: underline;
+    border-bottom: 5px;
 }
 
 .footer {
