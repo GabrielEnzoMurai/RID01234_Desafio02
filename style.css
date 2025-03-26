@@ -51,7 +51,7 @@ p {
     background-size: cover;
     margin-right: 2rem;
     height: 18rem;
-    width: 35rem;
+    width: 55rem;
     color: #fff;
     border-radius: .8rem;
     display: flex;
@@ -61,11 +61,15 @@ p {
 }
 
 .text p {
-    font-size: .8rem;
+    font-size: 1rem;
+}
+
+.text h2 {
+    font-size: 2rem;
 }
 
 .text h4 {
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 400;
 
 }
