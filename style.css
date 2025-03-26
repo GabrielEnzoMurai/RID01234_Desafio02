@@ -14,7 +14,22 @@ h1 {
     margin: 0;
     font-size: 2rem;
     font-weight: 700;
-    color: #fff;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 .background-green {
@@ -22,16 +37,87 @@ h1 {
     color: #fff;
 }
 
-#header-container {
-    background-color: rgba(2, 162, 143, 1);
+.header-container {
     height: 3rem;
-    padding: .5rem 5.5rem;
+    padding: .5rem 7rem;
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
 }
 
 .opinion {
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%), url(./assets/city.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+    height: 18rem;
+    width: 35rem;
+    color: #fff;
+    border-radius: .8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    padding: 0 0 1.2rem 1.2rem;
+}
+
+.text p {
+    font-size: .8rem;
+}
+
+.text h4 {
+    font-size: .7rem;
+    font-weight: 400;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.section-side-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-section {
+    border-radius: .5rem;
+    width: 15rem;
+    height: 1rem;
+    text-align: left;
+    justify-content: center;
+    padding: .5rem 0 .5rem 1rem;
+    font-size: .7rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    color: black;
+    margin-bottom: 1.3rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem .5rem 0 rgba(0, 0, 0, 0.1);
+    padding: .5rem;
+}
+
+.card h3 {
+    font-size: .6rem;
+    margin-bottom: .2rem;
+}
+
+.card p {
+    font-size: .5rem;
+    color: rgba(97, 97, 97, 1);
+}
+
+.card img {
+    width: 6.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
 }
 
 .footer {
