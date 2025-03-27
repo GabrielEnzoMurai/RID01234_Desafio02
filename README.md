@@ -1,4 +1,4 @@
-# Desafio: Construindo um modelo de Regressão para marketing
+# Desafio: Desenvolvendo um Blog Responsivo
 Desafio feito como desafio do curso da [Escola DNC](https://www.escoladnc.com.br) (Desenvolvedor Front-End)
 
 ## Exigências do Desafio
