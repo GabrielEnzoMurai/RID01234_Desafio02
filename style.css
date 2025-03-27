@@ -134,7 +134,10 @@ p {
 }
 
 .recent-post-banner{
-    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 46rem;
 }
 
 .recent-post-banner p {
